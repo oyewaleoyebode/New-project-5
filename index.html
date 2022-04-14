@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/thank.html">
+    <link rel="stylesheet" href="/sign.html">
+    
+</head>
+<body>
+   <div class="bodywork">
+       <!--the heading page-->
+       <div class="head">
+           <h2>Winners<span>@</span></h2>
+           
+           <ul>
+               <li><a href="#">HOME</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">SERVICE</a></li>
+               <li><a href="#">DESIGN</a></li>
+               <li><a href="#">CONTACT</a></li>
+           </ul>
+           
+            <div class="search">
+                
+                
+                    <input type="search" id="search" name="" placeholder="Type to Search" class="src">
+                   
+                    <a href="/index.html"><button type="submit" value="Search" class="y">Search</button></a>
+                
+                
+
+            </div>
+       </div>
+
+       <!--section-->
+
+       <div class="section">
+            
+            <div class="main">
+
+                <div class="part1">
+                    <h2>Photography</h2>
+                    <h1>Web Development &</h1>
+                    <h2>Course</h2>
+
+                    <p>
+                        web design Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, officia Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque culpa pariatur excepturi ipsum doloremque esse voluptates aspernatur, atque distinctio hic.
+                    </p>
+                    
+                    <div class="join">
+
+                        <a href="" ><button type="submit" class="yy" >JOIN US</button></a>
+
+                                           
+
+                    </div>
+
+                    
+                </div>
+
+                <div class="part2">
+                    <h2>Login Details</h2>
+
+                    <input type="email" id="email" value="" placeholder="Enter Email Here" class="email">
+                    <input type="password" id="password" value="" placeholder="Enter Password Here" class="password">
+                   
+                    <a href=""><button class="btn" onclick="myfunction()" id="yess">Login</button></a>
+                   
+                    <script >
+                        function myfunction() {
+
+                        var email= document.getElementById('email').value;
+                        var password = document.getElementById('password').value;
+
+                        if ( email== "email" && password=="password" )
+                        {
+                            window.location.href="thank.html";
+
+                        } 
+                        else {
+                            alert(" invalid Username and password")    
+                        } 
+
+                        }
+                    </script>
+
+
+                    <h4>Don't have an account?</h4>
+                    <h5><a href="/sign.html" >Sign up </a> here</h5>
+
+                    <div class="login">
+
+                        <p>Login with</p>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram-square"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram-square"></i>
+                        <i class="fa-brands fa-instagram-square"></i>
+
+                     </div>
+
+
+                </div>
+
+            </div>
+       </div>
+   </div> 
+</body>
+</html>
